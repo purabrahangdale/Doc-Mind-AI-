@@ -1,6 +1,6 @@
 import logging
 from fastapi import HTTPException, status
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from app.core.config import get_embedding_model, get_chat_model, EMBEDDING_MODEL_NAME
 
 logger = logging.getLogger(__name__)

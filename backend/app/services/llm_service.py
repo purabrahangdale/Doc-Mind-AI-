@@ -26,7 +26,7 @@ prompt = PromptTemplate(
 def generate_answer(question: str, context: str) -> str:
     """
     Generates an answer for a user question based strictly on the provided document context
-    using Google Gemini.
+    using the configured LLM.
 
     Args:
         question (str): The user query/question.
