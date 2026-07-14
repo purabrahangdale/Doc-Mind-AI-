@@ -1,0 +1,18 @@
+s=5,
+            output_tokens=0,
+            total_tokens=5,
+            input_token_details=InputTokenDetails(cache_read=3),
+        )
+        right = UsageMetadata(
+            input_tokens=0,
+            output_tokens=10,
+            total_tokens=10,
+            output_token_details=OutputTokenDetails(reasoning=4),
+        )
+
+        add_usage(left, right)
+        ```
+
+        results in
+
+    
